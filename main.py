@@ -51,7 +51,7 @@ async def on_message(message):
                 pass
             await message.channel.send('Your introduction has been saved!')
 
-client.run('NTQ5MTkyMTIzNzk1Mzc0MDgw.XHKBBQ.Mn0ud1xm7odAIhqgRr1uo8hGytk')
+client.run('token')
 
 def keyboardInterruptHandler(signal, frame):
     connection.commit()
